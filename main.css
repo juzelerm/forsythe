@@ -1,0 +1,103 @@
+a:link {
+            color:rebeccapurple;
+}
+
+a:hover {
+            text-decoration: none;
+            color: darkorchid;
+}
+
+a:visited,  a:active {
+            color:rebeccapurple;
+}
+
+.command {
+            color:blueviolet;
+            font-family: courier;
+            font-size: 12pt;
+            border: 1px solid white;
+}
+
+.tool {
+            height: 20px;
+            position: relative;
+            top: -3px;
+}
+
+.container {
+            max-width: 1000px;
+}
+
+.ss {
+            width: 100%;
+            max-width: 500px;
+            margin: 10px 0px 50px 0px;
+            border: 10px solid white;
+            box-shadow:2px 2px lightgray;
+}
+
+.step {
+            background: #f0f0f0;
+            border-radius: 5px;
+            border: 1px solid #dddddd;
+            padding: 0px 20px;
+            margin: 20px 0px;
+            width: 100%;
+}
+
+.in-out {
+            background: #f0f0f0;
+            border-radius: 5px;
+            border:2px solid blueviolet;
+            padding: 0px 20px;
+            margin: 20px 0px;
+            width: 100%;
+}
+
+.step h3,.in-out h3 {
+            color: #4f0680;
+}
+
+ul {
+            list-style-image: url("http://mrbrault.com/ps/tools/check-3.png");
+            margin-left: 15px;
+}
+    
+li {
+             margin: 2px;
+}
+.student {
+            width: 30%;
+            margin: 1.2%;
+            border: 10px solid white;
+            box-shadow:2px 2px lightgray;
+}
+
+
+.container-169 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56%; /* 16:9 Aspect Ratio */ 
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin:0 auto;
+}
+
+.profile {
+    width:100%;
+    margin-bottom: 25px;
+}
+h2 {
+    text-align: center; 
+    margin-top: -5px
+}
